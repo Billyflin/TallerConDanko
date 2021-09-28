@@ -58,8 +58,12 @@ public class Init {
         System.out.println("0) SALIR");
         if (a == 1){
             mostrarParesAdyacentes(arreglo);
+            
+            a=0;
         }else if(a==2){
             System.out.println(mayorProductoAdyacente(mostrarParesAdyacentes(arreglo)));
+            
+            a=0;
         }else{
             a=0;
         }
